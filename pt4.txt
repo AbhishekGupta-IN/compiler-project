@@ -1,0 +1,1077 @@
+declare	3	DECLARE	NA	<moduleDeclaration>	YES	----
+----	----	----	----	<moduleDeclarations>	No	<moduleDeclaration>	3
+module	3	MODULE	NA	<moduleDeclaration>	YES	----
+compute	3	ID	NA	<moduleDeclaration>	YES	----
+;	3	SEMICOL	NA	<moduleDeclaration>	YES	----
+
+----	----	----	----	<program>	No	<moduleDeclarations>	1
+----	4	EMPTY	NA	<moduleDeclarations>	YES	----
+----	----	----	----	<moduleDeclarations>	No	<moduleDeclarations>	2
+
+
+----	----	----	----	(null)	No	<program>	0
+----	4	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<program>	No	<otherModules>	5
+
+<<<	4	DRIVERDEF	NA	<driverModule>	YES	----
+----	----	----	----	<program>	No	<driverModule>	6
+driver	4	DRIVER	NA	<driverModule>	YES	----
+program	4	PROGRAM	NA	<driverModule>	YES	----
+>>>	4	DRIVERENDDEF	NA	<driverModule>	YES	----
+start	5	START	NA	<moduleDef>	YES	----
+----	----	----	----	<driverModule>	No	<moduleDef>	24
+declare	6	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>	89
+var_1_	6	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+,	6	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	56
+var_2_	6	ID	NA	<idList*>	YES	----
+,	6	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	56
+var_3_	6	ID	NA	<idList*>	YES	----
+----	6	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	57
+
+
+
+
+:	6	COLON	NA	<declareStmt>	YES	----
+integer	6	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	16
+
+;	6	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	29
+
+----	----	----	----	<moduleDef>	No	<statements>	25
+declare	7	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>	89
+R1_abc	7	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	7	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	57
+
+
+:	7	COLON	NA	<declareStmt>	YES	----
+boolean	7	BOOLEAN	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	18
+
+;	7	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	29
+
+----	----	----	----	<statements>	No	<statements>	25
+declare	8	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>	89
+r2_ABC	8	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	8	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	57
+
+
+:	8	COLON	NA	<declareStmt>	YES	----
+integer	8	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	16
+
+;	8	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	29
+
+----	----	----	----	<statements>	No	<statements>	25
+declare	9	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>	89
+R3_abc	9	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	9	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	57
+
+
+:	9	COLON	NA	<declareStmt>	YES	----
+real	9	REAL	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	17
+
+;	9	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	29
+
+----	----	----	----	<statements>	No	<statements>	25
+get_value	10	GET_VALUE	NA	<ioStmt>	YES	----
+----	----	----	----	<statement>	No	<ioStmt>	32
+(	10	BO	NA	<ioStmt>	YES	----
+var_1_	10	ID	NA	<ioStmt>	YES	----
+)	10	BC	NA	<ioStmt>	YES	----
+;	10	SEMICOL	NA	<ioStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	27
+
+----	----	----	----	<statements>	No	<statements>	25
+var_2_	11	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	11	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+10	11	NUM	10	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	11	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	11	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	11	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	58
+----	11	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>	61
+
+
+;	11	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+var_3_	12	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	12	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+-	12	MINUS	NA	<U>	YES	----
+----	----	----	----	<expression>	No	<U>	73
+(	12	BO	NA	<V>	YES	----
+----	----	----	----	<U>	No	<V>	75
+6	12	NUM	6	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	12	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<V>	No	<arithmeticExpr>	65
+----	12	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+)	12	BC	NA	<V>	YES	----
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	59
+
+;	12	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+[	13	SQBO	NA	<optional>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<optional>	53
+R1_abc	13	ID	NA	<idList>	YES	----
+----	----	----	----	<optional>	No	<idList>	55
+,	13	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	56
+r2_ABC	13	ID	NA	<idList*>	YES	----
+,	13	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	56
+R3_abc	13	ID	NA	<idList*>	YES	----
+----	13	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	57
+
+
+
+
+]	13	SQBC	NA	<optional>	YES	----
+:=	13	ASSIGNOP	NA	<optional>	YES	----
+
+----	----	----	----	<simpleStmt>	No	<moduleReuseStmt>	52
+use	13	USE	NA	<moduleReuseStmt>	YES	----
+module	13	MODULE	NA	<moduleReuseStmt>	YES	----
+compute	13	ID	NA	<moduleReuseStmt>	YES	----
+with	13	WITH	NA	<moduleReuseStmt>	YES	----
+parameters	13	PARAMETERS	NA	<moduleReuseStmt>	YES	----
+var_1_	13	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<idList>	55
+,	13	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	56
+var_2_	13	ID	NA	<idList*>	YES	----
+,	13	COMMA	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	56
+var_34	13	ID	NA	<idList*>	YES	----
+----	13	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList*>	No	<idList*>	57
+
+
+
+
+;	13	SEMICOL	NA	<moduleReuseStmt>	YES	----
+
+----	----	----	----	<statement>	No	<simpleStmt>	44
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+----	15	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<statements>	No	<statements>	26
+
+
+
+
+
+
+
+
+
+end	5	END	NA	<moduleDef>	YES	----
+
+
+<<	16	DEF	NA	<module>	YES	----
+----	----	----	----	<otherModules>	No	<module>	7
+module	16	MODULE	NA	<module>	YES	----
+compute	16	ID	NA	<module>	YES	----
+>>	16	ENDDEF	NA	<module>	YES	----
+takes	16	TAKES	NA	<module>	YES	----
+input	16	INPUT	NA	<module>	YES	----
+[	16	SQBO	NA	<module>	YES	----
+a	17	ID	NA	<input_plist>	YES	----
+----	----	----	----	<module>	No	<input_plist>	10
+:	17	COLON	NA	<input_plist>	YES	----
+integer	17	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<input_plist>	No	<dataType>	16
+
+,	17	COMMA	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist>	No	<input_plist*>	11
+b	17	ID	NA	<input_plist*>	YES	----
+:	17	COLON	NA	<input_plist*>	YES	----
+integer	17	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<input_plist*>	No	<dataType>	16
+
+,	17	COMMA	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist*>	No	<input_plist*>	11
+c	17	ID	NA	<input_plist*>	YES	----
+:	17	COLON	NA	<input_plist*>	YES	----
+integer	17	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<input_plist*>	No	<dataType>	16
+
+----	17	EMPTY	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist*>	No	<input_plist*>	12
+
+
+
+
+]	16	SQBC	NA	<module>	YES	----
+;	16	SEMICOL	NA	<module>	YES	----
+returns	18	RETURNS	NA	<ret>	YES	----
+----	----	----	----	<module>	No	<ret>	8
+[	18	SQBO	NA	<ret>	YES	----
+res_1	18	ID	NA	<output_plist>	YES	----
+----	----	----	----	<ret>	No	<output_plist>	13
+:	18	COLON	NA	<output_plist>	YES	----
+boolean	18	BOOLEAN	NA	<type>	YES	----
+----	----	----	----	<output_plist>	No	<type>	23
+
+,	18	COMMA	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist>	No	<output_plist*>	14
+res_2_a	18	ID	NA	<output_plist*>	YES	----
+:	18	COLON	NA	<output_plist*>	YES	----
+integer	18	INTEGER	NA	<type>	YES	----
+----	----	----	----	<output_plist*>	No	<type>	21
+
+,	18	COMMA	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist*>	No	<output_plist*>	14
+res_2__b	18	ID	NA	<output_plist*>	YES	----
+:	18	COLON	NA	<output_plist*>	YES	----
+real	18	REAL	NA	<type>	YES	----
+----	----	----	----	<output_plist*>	No	<type>	22
+
+----	18	EMPTY	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist*>	No	<output_plist*>	15
+
+
+
+
+]	18	SQBC	NA	<ret>	YES	----
+;	18	SEMICOL	NA	<ret>	YES	----
+
+start	19	START	NA	<moduleDef>	YES	----
+----	----	----	----	<module>	No	<moduleDef>	24
+declare	20	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>	89
+b	20	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	20	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>	57
+
+
+:	20	COLON	NA	<declareStmt>	YES	----
+boolean	20	BOOLEAN	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	18
+
+;	20	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	29
+
+----	----	----	----	<moduleDef>	No	<statements>	25
+res_2_a	21	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	21	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+-	21	MINUS	NA	<U>	YES	----
+----	----	----	----	<expression>	No	<U>	73
+(	21	BO	NA	<V>	YES	----
+----	----	----	----	<U>	No	<V>	75
+a	21	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	21	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+*	21	MUL	NA	<op2>	YES	----
+----	----	----	----	<term*>	No	<op2>	79
+
+----	----	----	----	<term>	No	<term*>	69
+b	21	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	21	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term*>	No	<factor>	72
+
+----	21	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term*>	No	<term*>	70
+
+
+
+----	----	----	----	<V>	No	<arithmeticExpr>	65
+-	21	MINUS	NA	<op1>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<op1>	78
+
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	66
+c	21	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	21	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr*>	No	<term>	68
+/	21	DIV	NA	<op2>	YES	----
+----	----	----	----	<term*>	No	<op2>	80
+
+----	----	----	----	<term>	No	<term*>	69
+5	21	NUM	5	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term*>	No	<factor>	72
+
+----	21	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term*>	No	<term*>	70
+
+
+
+----	21	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<arithmeticExpr*>	67
+
+
+
+)	21	BC	NA	<V>	YES	----
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	59
+
+;	21	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+res_2__b	22	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	22	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+(	22	BO	NA	<factor>	YES	----
+----	----	----	----	<term>	No	<factor>	71
+(	22	BO	NA	<factor>	YES	----
+----	----	----	----	<term>	No	<factor>	71
+res_2_a	22	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	22	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	22	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
++	22	PLUS	NA	<op1>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<op1>	77
+
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	66
+a	22	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	22	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr*>	No	<term>	68
+----	22	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	22	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<arithmeticExpr*>	67
+
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	22	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<factor>	No	<expression>	58
+----	22	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>	61
+
+
+)	22	BC	NA	<factor>	YES	----
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+*	22	MUL	NA	<op2>	YES	----
+----	----	----	----	<term*>	No	<op2>	79
+
+----	----	----	----	<term>	No	<term*>	69
+12	22	NUM	12	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term*>	No	<factor>	72
+
+----	22	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term*>	No	<term*>	70
+
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
++	22	PLUS	NA	<op1>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<op1>	77
+
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	66
+22.34E-2	22	RNUM	22.34E-2	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	38
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr*>	No	<term>	68
+----	22	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	22	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr*>	No	<arithmeticExpr*>	67
+
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	22	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<factor>	No	<expression>	58
+----	22	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>	61
+
+
+)	22	BC	NA	<factor>	YES	----
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+/	22	DIV	NA	<op2>	YES	----
+----	----	----	----	<term*>	No	<op2>	80
+
+----	----	----	----	<term>	No	<term*>	69
+13	22	NUM	13	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term*>	No	<factor>	72
+
+----	22	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term*>	No	<term*>	70
+
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	22	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	22	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	58
+----	22	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>	61
+
+
+;	22	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+b	23	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	23	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+a	23	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	23	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+<=	23	LE	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	84
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+b	23	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	23	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	58
+AND	23	AND	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	81
+
+----	----	----	----	<expression>	No	<expression*>	60
+c	23	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	23	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+>=	23	GE	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	86
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+a	23	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	23	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+OR	23	OR	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	82
+
+----	----	----	----	<expression*>	No	<expression*>	60
+a	23	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	23	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+<	23	LT	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	83
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+0	23	NUM	0	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	37
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+AND	23	AND	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	81
+
+----	----	----	----	<expression*>	No	<expression*>	60
+false	23	FALSE	NA	<boolConstt>	YES	----
+----	----	----	----	<var>	No	<boolConstt>	40
+
+----	----	----	----	<factor>	No	<var>	35
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	23	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	23	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+----	23	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	23	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression*>	No	<expression*>	61
+
+
+
+
+
+;	23	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+res_1	24	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>	45
+:=	24	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>	48
+(	24	BO	NA	<factor>	YES	----
+----	----	----	----	<term>	No	<factor>	71
+true	24	TRUE	NA	<boolConstt>	YES	----
+----	----	----	----	<var>	No	<boolConstt>	39
+
+----	----	----	----	<factor>	No	<var>	35
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	24	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<factor>	No	<expression>	58
+AND	24	AND	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	81
+
+----	----	----	----	<expression>	No	<expression*>	60
+c	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+==	24	EQ	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	87
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+b	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+----	24	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression*>	No	<expression*>	61
+
+
+
+)	24	BC	NA	<factor>	YES	----
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+----	24	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>	58
+OR	24	OR	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	82
+
+----	----	----	----	<expression>	No	<expression*>	60
+(	24	BO	NA	<factor>	YES	----
+----	----	----	----	<term>	No	<factor>	71
+b	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+>	24	GT	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	85
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+p	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+----	----	----	----	<factor>	No	<expression>	58
+AND	24	AND	NA	<logicalOp>	YES	----
+----	----	----	----	<expression*>	No	<logicalOp>	81
+
+----	----	----	----	<expression>	No	<expression*>	60
+(	24	BO	NA	<factor>	YES	----
+----	----	----	----	<term>	No	<factor>	71
+a	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression>	No	<booleanExpr>	62
+<=	24	LE	NA	<relationalOp>	YES	----
+----	----	----	----	<otherExpr>	No	<relationalOp>	84
+
+----	----	----	----	<booleanExpr>	No	<otherExpr>	63
+c	24	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	24	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<factor>	No	<var>	34
+
+----	----	----	----	<term>	No	<factor>	72
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<otherExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+
+
+----	----	----	----	<factor>	No	<expression>	58
+----	24	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>	61
+
+
+)	24	BC	NA	<factor>	YES	----
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+----	24	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	24	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression*>	No	<expression*>	61
+
+
+
+)	24	BC	NA	<factor>	YES	----
+
+----	----	----	----	<arithmeticExpr>	No	<term>	68
+----	24	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term>	No	<term*>	70
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>	65
+----	24	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>	67
+
+
+----	----	----	----	<expression*>	No	<booleanExpr>	62
+----	24	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>	64
+
+
+----	24	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression*>	No	<expression*>	61
+
+
+
+;	24	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>	46
+
+
+----	----	----	----	<statement>	No	<simpleStmt>	43
+
+----	----	----	----	<statements>	No	<statement>	28
+
+----	----	----	----	<statements>	No	<statements>	25
+print	26	PRINT	NA	<ioStmt>	YES	----
+----	----	----	----	<statement>	No	<ioStmt>	33
+(	26	BO	NA	<ioStmt>	YES	----
+res_1	26	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>	36
+----	26	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>	42
+
+
+----	----	----	----	<ioStmt>	No	<var>	34
+
+)	26	BC	NA	<ioStmt>	YES	----
+;	26	SEMICOL	NA	<ioStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>	27
+
+----	----	----	----	<statements>	No	<statements>	25
+----	27	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<statements>	No	<statements>	26
+
+
+
+
+
+
+
+end	19	END	NA	<moduleDef>	YES	----
+
+
+----	----	----	----	<program>	No	<otherModules>	4
+----	31	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<otherModules>	No	<otherModules>	5
+
+
+

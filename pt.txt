@@ -1,0 +1,226 @@
+----	2	EMPTY	NA	<moduleDeclarations>	YES	----
+----	----	----	----	<program>	No	<moduleDeclarations>
+
+----	----	----	----	(null)	No	<program>
+----	2	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<program>	No	<otherModules>
+
+<<<	2	DRIVERDEF	NA	<driverModule>	YES	----
+----	----	----	----	<program>	No	<driverModule>
+driver	2	DRIVER	NA	<driverModule>	YES	----
+program	2	PROGRAM	NA	<driverModule>	YES	----
+>>>	2	DRIVERENDDEF	NA	<driverModule>	YES	----
+start	3	START	NA	<moduleDef>	YES	----
+----	----	----	----	<driverModule>	No	<moduleDef>
+declare	4	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>
+v_1_2_3	4	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>
+----	4	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>
+
+
+:	4	COLON	NA	<declareStmt>	YES	----
+integer	4	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>
+
+;	4	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<moduleDef>	No	<statements>
+get_value	5	GET_VALUE	NA	<ioStmt>	YES	----
+----	----	----	----	<statement>	No	<ioStmt>
+(	5	BO	NA	<ioStmt>	YES	----
+v_1_2_3	5	ID	NA	<ioStmt>	YES	----
+)	5	BC	NA	<ioStmt>	YES	----
+;	5	SEMICOL	NA	<ioStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<statements>	No	<statements>
+declare	6	DECLARE	NA	<declareStmt>	YES	----
+----	----	----	----	<statement>	No	<declareStmt>
+result_	6	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>
+----	6	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>
+
+
+:	6	COLON	NA	<declareStmt>	YES	----
+integer	6	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>
+
+;	6	SEMICOL	NA	<declareStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<statements>	No	<statements>
+[	7	SQBO	NA	<optional>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<optional>
+square	7	ID	NA	<idList>	YES	----
+----	----	----	----	<optional>	No	<idList>
+----	7	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>
+
+
+]	7	SQBC	NA	<optional>	YES	----
+:=	7	ASSIGNOP	NA	<optional>	YES	----
+
+----	----	----	----	<simpleStmt>	No	<moduleReuseStmt>
+use	7	USE	NA	<moduleReuseStmt>	YES	----
+module	7	MODULE	NA	<moduleReuseStmt>	YES	----
+result_	7	ID	NA	<moduleReuseStmt>	YES	----
+with	7	WITH	NA	<moduleReuseStmt>	YES	----
+parameters	7	PARAMETERS	NA	<moduleReuseStmt>	YES	----
+v_1_2_3	7	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<idList>
+----	7	EMPTY	NA	<idList*>	YES	----
+----	----	----	----	<idList>	No	<idList*>
+
+
+;	7	SEMICOL	NA	<moduleReuseStmt>	YES	----
+
+----	----	----	----	<statement>	No	<simpleStmt>
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<statements>	No	<statements>
+print	8	PRINT	NA	<ioStmt>	YES	----
+----	----	----	----	<statement>	No	<ioStmt>
+(	8	BO	NA	<ioStmt>	YES	----
+result	8	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>
+----	8	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>
+
+
+----	----	----	----	<ioStmt>	No	<var>
+
+)	8	BC	NA	<ioStmt>	YES	----
+;	8	SEMICOL	NA	<ioStmt>	YES	----
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<statements>	No	<statements>
+----	9	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<statements>	No	<statements>
+
+
+
+
+
+
+end	3	END	NA	<moduleDef>	YES	----
+
+
+<<	11	DEF	NA	<module>	YES	----
+----	----	----	----	<otherModules>	No	<module>
+module	11	MODULE	NA	<module>	YES	----
+square	11	ID	NA	<module>	YES	----
+>>	11	ENDDEF	NA	<module>	YES	----
+takes	11	TAKES	NA	<module>	YES	----
+input	11	INPUT	NA	<module>	YES	----
+[	11	SQBO	NA	<module>	YES	----
+x	12	ID	NA	<input_plist>	YES	----
+----	----	----	----	<module>	No	<input_plist>
+:	12	COLON	NA	<input_plist>	YES	----
+integer	12	INTEGER	NA	<dataType>	YES	----
+----	----	----	----	<input_plist>	No	<dataType>
+
+----	12	EMPTY	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist>	No	<input_plist*>
+
+
+]	11	SQBC	NA	<module>	YES	----
+;	11	SEMICOL	NA	<module>	YES	----
+returns	13	RETURNS	NA	<ret>	YES	----
+----	----	----	----	<module>	No	<ret>
+[	13	SQBO	NA	<ret>	YES	----
+value	13	ID	NA	<output_plist>	YES	----
+----	----	----	----	<ret>	No	<output_plist>
+:	13	COLON	NA	<output_plist>	YES	----
+integer	13	INTEGER	NA	<type>	YES	----
+----	----	----	----	<output_plist>	No	<type>
+
+----	13	EMPTY	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist>	No	<output_plist*>
+
+
+]	13	SQBC	NA	<ret>	YES	----
+;	13	SEMICOL	NA	<ret>	YES	----
+
+start	14	START	NA	<moduleDef>	YES	----
+----	----	----	----	<module>	No	<moduleDef>
+value	15	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<simpleStmt>	No	<assignmentStmt>
+:=	15	ASSIGNOP	NA	<lvalueIDStmt>	YES	----
+----	----	----	----	<whichStmt>	No	<lvalueIDStmt>
+x	15	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>
+----	15	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>
+
+
+----	----	----	----	<factor>	No	<var>
+
+----	----	----	----	<term>	No	<factor>
+
+----	----	----	----	<arithmeticExpr>	No	<term>
+*	15	MUL	NA	<op2>	YES	----
+----	----	----	----	<term*>	No	<op2>
+
+----	----	----	----	<term>	No	<term*>
+x	15	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<var>	No	<var_id_num>
+----	15	EMPTY	NA	<whichId>	YES	----
+----	----	----	----	<var_id_num>	No	<whichId>
+
+
+----	----	----	----	<factor>	No	<var>
+
+----	----	----	----	<term*>	No	<factor>
+
+----	15	EMPTY	NA	<term*>	YES	----
+----	----	----	----	<term*>	No	<term*>
+
+
+
+----	----	----	----	<booleanExpr>	No	<arithmeticExpr>
+----	15	EMPTY	NA	<arithmeticExpr*>	YES	----
+----	----	----	----	<arithmeticExpr>	No	<arithmeticExpr*>
+
+
+----	----	----	----	<expression>	No	<booleanExpr>
+----	15	EMPTY	NA	<otherExpr>	YES	----
+----	----	----	----	<booleanExpr>	No	<otherExpr>
+
+
+----	----	----	----	<lvalueIDStmt>	No	<expression>
+----	15	EMPTY	NA	<expression*>	YES	----
+----	----	----	----	<expression>	No	<expression*>
+
+
+;	15	SEMICOL	NA	<lvalueIDStmt>	YES	----
+
+----	----	----	----	<assignmentStmt>	No	<whichStmt>
+
+
+----	----	----	----	<statement>	No	<simpleStmt>
+
+----	----	----	----	<statements>	No	<statement>
+
+----	----	----	----	<moduleDef>	No	<statements>
+----	16	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<statements>	No	<statements>
+
+
+end	14	END	NA	<moduleDef>	YES	----
+
+
+----	----	----	----	<program>	No	<otherModules>
+----	27	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<otherModules>	No	<otherModules>
+
+
+

@@ -1,0 +1,240 @@
+***********INORDER TRAVERSAL*************
+
+array_parameter_demo	8	ID	NA	<module>	YES	----
+----	----	----	----	<program>	No	<module>	7
+B	9	ID	NA	<input_plist>	YES	----
+----	----	----	----	<module>	No	<input_plist>	10
+10	9	NUM	10	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+14	9	NUM	14	<range_arrays>	YES	----
+----	----	----	----	<input_plist>	No	<dataType>	19
+integer	9	INTEGER	NA	<dataType>	YES	----
+C	9	ID	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist>	No	<input_plist*>	11
+low	9	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+high	9	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<input_plist*>	No	<dataType>	19
+integer	9	INTEGER	NA	<dataType>	YES	----
+sum1	10	ID	NA	<output_plist>	YES	----
+----	----	----	----	<ret>	No	<output_plist>	13
+integer	10	INTEGER	NA	<output_plist>	YES	----
+sum2	10	ID	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist>	No	<output_plist*>	14
+integer	10	INTEGER	NA	<output_plist*>	YES	----
+sum3	10	ID	NA	<output_plist*>	YES	----
+----	----	----	----	<output_plist*>	No	<output_plist*>	14
+integer	10	INTEGER	NA	<output_plist*>	YES	----
+----	----	----	----	<module>	No	<ret>	8
+B	12	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+----	----	----	----	<module>	No	<moduleDef>	24
+C	13	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+k	15	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+i	15	ID	NA	<idList>	YES	----
+p	15	ID	NA	<idList>	YES	----
+q	15	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+integer	15	INTEGER	NA	<declareStmt>	YES	----
+p	16	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+q	17	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+A	18	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+D	18	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+10	18	NUM	10	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+14	18	NUM	14	<range_arrays>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	19
+integer	18	INTEGER	NA	<dataType>	YES	----
+E	19	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+p	19	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+q	19	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	19
+integer	19	INTEGER	NA	<dataType>	YES	----
+A	21	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+E	22	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+A	25	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+sum1	26	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<assignmentStmt>	45
+0	26	NUM	0	<lvalueIDStmt>	YES	----
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
+k	27	ID	NA	<iterativeStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<iterativeStmt>	99
+10	27	NUM	10	<range>	YES	----
+----	----	----	----	<iterativeStmt>	No	<range>	101
+14	27	NUM	14	<range>	YES	----
+A	29	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+k	29	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	33
+sum1	30	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<iterativeStmt>	No	<assignmentStmt>	45
+sum1	30	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
++	30	PLUS	NA	<lvalueIDStmt>	YES	----
+A	30	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+k	30	ID	NA	<var_id_num>	YES	----
+sum1	31	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	33
+A	33	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+sum1	34	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+E	37	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<assignmentStmt>	45
+5	37	NUM	5	<lvalueARRStmt>	YES	----
+----	----	----	----	<assignmentStmt>	No	<lvalueARRStmt>	49
+E	37	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueARRStmt>	No	<var_id_num>	36
+6	37	NUM	6	<var_id_num>	YES	----
++	37	PLUS	NA	<lvalueARRStmt>	YES	----
+E	37	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueARRStmt>	No	<var_id_num>	36
+7	37	NUM	7	<var_id_num>	YES	----
+E	38	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+sum2	41	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<assignmentStmt>	45
+0	41	NUM	0	<lvalueIDStmt>	YES	----
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
+D	42	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<assignmentStmt>	45
+B	42	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
+D	43	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+i	44	ID	NA	<iterativeStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<iterativeStmt>	99
+10	44	NUM	10	<range>	YES	----
+----	----	----	----	<iterativeStmt>	No	<range>	101
+14	44	NUM	14	<range>	YES	----
+D	46	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+i	46	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	33
+sum2	47	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<iterativeStmt>	No	<assignmentStmt>	45
+sum2	47	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
++	47	PLUS	NA	<lvalueIDStmt>	YES	----
+D	47	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+i	47	ID	NA	<var_id_num>	YES	----
+sum2	48	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	33
+D	50	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+sum2	51	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+sum3	54	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<assignmentStmt>	45
+0	54	NUM	0	<lvalueIDStmt>	YES	----
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
+C	55	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+j	56	ID	NA	<iterativeStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<iterativeStmt>	99
+1	56	NUM	1	<range>	YES	----
+----	----	----	----	<iterativeStmt>	No	<range>	101
+4	56	NUM	4	<range>	YES	----
+index	58	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	32
+sum3	59	ID	NA	<assignmentStmt>	YES	----
+----	----	----	----	<iterativeStmt>	No	<assignmentStmt>	45
+sum3	59	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+----	----	----	----	<assignmentStmt>	No	<lvalueIDStmt>	48
++	59	PLUS	NA	<lvalueIDStmt>	YES	----
+C	59	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<lvalueIDStmt>	No	<var_id_num>	36
+index	59	ID	NA	<var_id_num>	YES	----
+sum3	60	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<iterativeStmt>	No	<ioStmt>	33
+sum3	62	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+----	----	----	----	----	No	<program>
+m	67	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+n	67	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+integer	67	INTEGER	NA	<declareStmt>	YES	----
+----	----	----	----	<driverModule>	No	<moduleDef>	24
+s1	68	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+s2	68	ID	NA	<idList>	YES	----
+s3	68	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+integer	68	INTEGER	NA	<declareStmt>	YES	----
+m	69	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+n	70	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+array_A	71	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+10	71	NUM	10	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+14	71	NUM	14	<range_arrays>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	19
+integer	71	INTEGER	NA	<dataType>	YES	----
+array_B	72	ID	NA	<idList>	YES	----
+----	----	----	----	<declareStmt>	No	<idList>	55
+----	----	----	----	<moduleDef>	No	<declareStmt>	89
+m	72	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<dataType>	No	<range_arrays>	20
+n	72	ID	NA	<range_arrays>	YES	----
+----	----	----	----	<declareStmt>	No	<dataType>	19
+integer	72	INTEGER	NA	<dataType>	YES	----
+array_A	73	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+array_B	74	ID	NA	<ioStmt>	YES	----
+----	----	----	----	<moduleDef>	No	<ioStmt>	32
+s1	75	ID	NA	<idList>	YES	----
+----	----	----	----	<optional>	No	<idList>	55
+s2	75	ID	NA	<idList>	YES	----
+s3	75	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<optional>	53
+----	----	----	----	<moduleDef>	No	<moduleReuseStmt>	52
+array_parameter_demo	75	ID	NA	<moduleReuseStmt>	YES	----
+array_A	75	ID	NA	<idList>	YES	----
+----	----	----	----	<moduleReuseStmt>	No	<idList>	55
+array_B	75	ID	NA	<idList>	YES	----
+s1	77	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+s2	78	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+s3	79	ID	NA	<var_id_num>	YES	----
+----	----	----	----	<ioStmt>	No	<var_id_num>	36
+----	----	----	----	<moduleDef>	No	<ioStmt>	33
+----	----	----	----	<program>	No	<driverModule>	6

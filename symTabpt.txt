@@ -1,0 +1,57 @@
+----	2	EMPTY	NA	<moduleDeclarations>	YES	----
+----	----	----	----	<program>	No	<moduleDeclarations>	2
+
+----	----	----	----	(null)	No	<program>	0
+----	2	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<program>	No	<otherModules>	5
+
+<<<	2	DRIVERDEF	NA	<driverModule>	YES	----
+----	----	----	----	<program>	No	<driverModule>	6
+driver	2	DRIVER	NA	<driverModule>	YES	----
+program	2	PROGRAM	NA	<driverModule>	YES	----
+>>>	2	DRIVERENDDEF	NA	<driverModule>	YES	----
+start	3	START	NA	<moduleDef>	YES	----
+----	----	----	----	<driverModule>	No	<moduleDef>	24
+----	5	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<moduleDef>	No	<statements>	26
+
+end	3	END	NA	<moduleDef>	YES	----
+
+
+<<	6	DEF	NA	<module>	YES	----
+----	----	----	----	<otherModules>	No	<module>	7
+module	6	MODULE	NA	<module>	YES	----
+empty	6	ID	NA	<module>	YES	----
+>>	6	ENDDEF	NA	<module>	YES	----
+takes	6	TAKES	NA	<module>	YES	----
+input	6	INPUT	NA	<module>	YES	----
+[	6	SQBO	NA	<module>	YES	----
+a	7	ID	NA	<input_plist>	YES	----
+----	----	----	----	<module>	No	<input_plist>	10
+:	7	COLON	NA	<input_plist>	YES	----
+boolean	7	BOOLEAN	NA	<dataType>	YES	----
+----	----	----	----	<input_plist>	No	<dataType>	18
+
+----	7	EMPTY	NA	<input_plist*>	YES	----
+----	----	----	----	<input_plist>	No	<input_plist*>	12
+
+
+]	6	SQBC	NA	<module>	YES	----
+;	6	SEMICOL	NA	<module>	YES	----
+----	8	EMPTY	NA	<ret>	YES	----
+----	----	----	----	<module>	No	<ret>	9
+
+start	8	START	NA	<moduleDef>	YES	----
+----	----	----	----	<module>	No	<moduleDef>	24
+----	10	EMPTY	NA	<statements>	YES	----
+----	----	----	----	<moduleDef>	No	<statements>	26
+
+end	8	END	NA	<moduleDef>	YES	----
+
+
+----	----	----	----	<program>	No	<otherModules>	4
+----	23	EMPTY	NA	<otherModules>	YES	----
+----	----	----	----	<otherModules>	No	<otherModules>	5
+
+
+
